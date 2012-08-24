@@ -1,7 +1,7 @@
 class authorized-sshkey::root(
     $authorized_keys    = {},
     $key_dir            = '/root/.ssh',
-    $key_file           = '/root/.ssh/authorized-keys',
+    $key_file           = '/root/.ssh/authorized_keys',
 ) {
     file { $key_dir:
         ensure => "directory",
