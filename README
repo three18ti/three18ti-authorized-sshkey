@@ -1,0 +1,28 @@
+authorized-sshkey
+
+This is the authorized-sshkey module.
+
+This module is designed to distribute authorized ssh keys.
+At the moment it only deploys the root key
+
+    authorized_keys => {
+        key =>  {
+            method  => "ssh-rsa",
+            key     => "asdf",
+            user    => "jon@red5",
+        }
+    }
+    
+
+License
+-------
+Perl Artistic License http://dev.perl.org/licenses/artistic.html
+
+Contact
+-------
+
+
+Support
+-------
+
+Please log tickets and issues at our [Projects site](http://projects.example.com)
