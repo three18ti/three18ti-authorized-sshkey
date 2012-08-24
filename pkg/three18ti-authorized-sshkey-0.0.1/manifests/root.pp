@@ -1,4 +1,4 @@
-class authorized-sshkey::root(
+class autorized-sshkey::root(
     $authorized_keys    = {},
     $key_dir            = '/root/.ssh',
     $key_file           = '/root/.ssh/authorized-keys',

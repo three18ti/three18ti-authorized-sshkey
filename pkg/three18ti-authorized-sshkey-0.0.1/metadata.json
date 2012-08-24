@@ -1,0 +1,25 @@
+{
+  "summary": "UNKNOWN",
+  "description": "UNKNOWN",
+  "source": "UNKNOWN",
+  "project_page": "UNKNOWN",
+  "checksums": {
+    "tests/init.pp": "22eb5d1a734c6fc59a3d1ce49533bf21",
+    "templates/authorized-keys.erb": "79d026c84d38b5cd0439b5814137c7ab",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "manifests/root.pp": "678c5cd27d96aa17f338a669c32a24b0",
+    "README": "20c3e00e6f08e12e5c6868a1dc7294b9",
+    "Modulefile": "c8a73ea193689494bbc72e08947a1640",
+    "manifests/init.pp": "86c9e984a51721a537db5da5b4d40109"
+  },
+  "author": "three18ti",
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "name": "three18ti-authorized-sshkey",
+  "version": "0.0.1",
+  "dependencies": [
+
+  ]
+}
